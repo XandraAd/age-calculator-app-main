@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Age calculator app</title>
+
+</head>
+
+<main>
+  <div class="data-age">
+    <div class="calc-age">
+
+      <div class="label-input">
+      <div class="info"><label for="day-input">Day</label></div>
+      <div><input type="number" id="day-input" name="day" placeholder="DD"
+      value="" min="01" max="31" required></div>
+      </div>
+       
+      <div class="label-input">
+      <div class="info"><label for="month-input">Month</label></div>
+      <div><input type="number" id="month-input" name="month" placeholder="MM"
+      value="" min="01" max="12" required></div>
+      </div>
+
+      <div class="label-input">
+      <div class="info"><label for="year-input">Year</label></div>
+      <div><input type="number" id="year-input" name="year" placeholder="YYYY"
+      value="" min="1900" max="2023" required></div>
+      </div>
+    
+    </div>
+    <p id="placeholder">Enter date of Birth</p>
+    <div id="hr-button">
+      <hr>
+           
+    <button id="calculate-age-btn">
+      <img src="./assets/images/icon-arrow.svg" alt="">
+    </button>
+    </div>
+
+
+           
+           
+     <div id="calculated-age-section">
+      <p>-- <span id="age-years"></span> years</p>
+      <p>-- <span id="age-months"></span> months</p>
+      <p>-- <span id="age-days"></span> days</p>
+     </div>
+
+           
+  </div>
+  </main>
+  
+<!--Js link-->
+<script src="index.js"></script>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sandra Opare</a>.
+  </div>
+</body>
+</html>

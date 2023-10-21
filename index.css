@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--Purple: hsl(259, 100%, 65%);
+--Light-red: hsl(0, 100%, 67%);
+--White: hsl(0, 0%, 100%);
+--Off-white: hsl(0, 0%, 94%);
+--Light-grey: hsl(0, 0%, 86%);
+--Smokey-grey: hsl(0, 1%, 44%);
+--Off-black: hsl(0, 0%, 8%);
+
+}
+
+body {
+font-size: 32px;
+font-family: 'poppins',sans-serif;
+
+background-color: var(--Off-white)
+
+
+
+}
+ 
+
+
+
+
+.data-age {
+    
+    background-color:var(--White);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 8rem;
+    margin: 5rem 25rem;
+    padding: 6rem 3rem;
+    width: 38%;
+    
+}
+
+.calc-age {
+    display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 2rem ;
+   
+}
+
+.label-input {
+    font-size: medium;
+    
+}
+
+.info {
+    margin-block: 0.4rem;
+}
+
+input {
+    padding: 8px;
+    font-weight: 800;
+}
+
+#calculate-age-btn {
+    border: none;
+    background-color: var(--White);
+    display: flex;
+    position: absolute;
+    /*right: 36rem;*/
+    left: 50rem;
+    top: 17rem;
+    
+    
+}
+
+
+
+
+#calculate-age-btn img{
+    
+    border-radius: 50%;
+    /*width: 100%;
+    height: 100%;
+    display:flex;
+    left: 20px;
+    align-self: flex-end;*/
+    background-color: blueviolet;
+    
+}
+
+
+#calculated-age-section {
+    margin-top: 2rem;
+    padding-inline: 3rem;
+   
+}
+
+
+#calculated-age-section p {
+  font-weight: 700;
+  font-size: larger;
+   
+}
+
+span {
+    
+    color: var(--Purple);
+}
+
+#placeholder {
+    font-size: small;
+    text-align: center;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
